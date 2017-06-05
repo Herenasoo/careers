@@ -2,7 +2,7 @@
 
 ### 텀블벅 소개
 
-안녕하세요. 크리에이터를 위한 서비스를 만드는 **[텀블벅](https://www.tumblbug.com)**입니다. 
+안녕하세요. 크리에이터를 위한 서비스를 만드는 [**텀블벅**](https://www.tumblbug.com)입니다. 
 
 텀블벅은 다양한 분야의 창작자들이 창작 활동에서 겪는 문제들을 해결하기 위해 시작한 서비스입니다. 단순히 ‘돈이 되는가’라는 잣대만으로 평가할 수 없는 멋진 시도들이 가능한 토대를 만들어오고 있는 텀블벅은, 2015년 17억원 규모의 Series A 투자 유치와 2016년 누적 후원금 100억원 돌파 등을 거치며 하루가 다르게 탄탄한 기술·문화 기업으로 성장해 나가고 있습니다.
 
@@ -46,7 +46,7 @@
 - 무엇을 했고, 무엇에 막혀 있는지 등을 포함해 자신의 업무 상태를 효율적으로 커뮤니케이션합니다
 - 다른 동료들로부터 피드백을 주고 받는 것에 대해서 열려 있어야 하며, 확실하지 않은 것에 대해서 적극적으로 질문합니다
 
-### Software Engineer
+#### Software Engineer
 
 Software development 및 engineering practices에 대한 경력이 있는 분으로 제품 개발에서 스펙 설정, 리스크 관리, 구현, 테스팅 등 다양한 영역에서 전문성을 가지고 계신 엔지니어입니다.
 
@@ -59,18 +59,20 @@ Software development 및 engineering practices에 대한 경력이 있는 분으
 - Amazon Web Service (또는 비슷한 클라우드 컴퓨팅 플랫폼)의 다양한 서비스를 사용해서 개발한 경험이 있으신 분
 - 대용량 분산 시스템 설계 및 데이터 처리를 원활하게 할 수 있는 분
 
-### [Software Engineer 지원하기](https://tumblbug.workable.com)
+#### [Software Engineer 지원하기](https://tumblbug.workable.com)
+
+----
 
 ### 텀블벅을 구성하는 기술
 
 - Node.js, Rails 등을 활용해서 microservice system을 만들고 있습니다
-- 주요 Javascript libraries로는 React.js과 Redux을 사용하고 있습니다
-- CSS preprocessor로 SCSS를 사용하며, CSS의 coding convention으로 BEM (Block-Element-Modifier) 방식을 상당 부분 따르고 있습니다
+- 주요 Javascript libraries로는 React과 MobX를 사용하고 있습니다
+- CSS는 styled-components와 CSS modules를 사용합니다
 - SemaphoreCI를 활용해서 continuous integration을 하고, 모든 코드에 대한 unit testing을 철저하게 하고 있습니다
-- Javascript testing으로 Jasmine을 활용하고 있습니다
-- Amazon Web Service: EC2, S3, RDS, SQS, Cloudfront, Elastic Transcoder
+- JavaScript testing으로 Jest와 Enzyme를 활용하고 있습니다
+- Amazon Web Service는 EC2, S3, RDS, SQS, Cloudfront, Elastic Transcoder 등
 - Code Quality: Codeclimate을 통해 duplication, security issues 등을 발견하고 수정합니다
-- Style: rubocop, sass-lint, jshint를 통해 개별 엔지니어의 코딩 작성 단계에서나 commit 단계에서 팀의 코딩 컨벤션을 준수하도록 하고 있습니다
+- 팀의 코딩 컨벤션은 rubocop, eslint 등으로 개별 엔지니어의 코딩 작성 단계에서나 commit 단계에서 준수하도록 하고 있습니다
 - 필요에 따라 Ruby, Python, R로 일부 도구를 만들고 있습니다
 - 커뮤니케이션은 Slack을 활용합니다
 
@@ -92,13 +94,13 @@ Software development 및 engineering practices에 대한 경력이 있는 분으
 
 ##### 사이드 프로젝트를 적극적으로 합니다
 
-당장 처리해야 하는 개발 업무가 아니라도 장기적인 프레임워크나 툴 개발하는 것을 좋아합니다. 텀블벅에 현재 쓰이는 사용되는 CSS Framework 인 [Jitterbug](https://github.com/tumblbug/jitterbug)나 텀블벅 커스텀 ESLint 플러그인  [eslint-plugin-tumblbug](https://github.com/tumblbug/eslint-plugin-tumblbug) 역시 사이드 프로젝트에서 탄생했습니다. 한 엔지니어는 주말 사이 재미로 텀블벅 프로젝트 데이터를 가져오는 REST API를 만들었는데, 지금은 그 결과물이 네이버 서비스와의 연동에 쓰이고 있습니다. 
+당장 처리해야 하는 개발 업무가 아니라도 장기적인 프레임워크나 툴 개발하는 것을 좋아합니다. 텀블벅에 현재 쓰이는 사용되는 CSS Framework인 [Jitterbug](https://github.com/tumblbug/jitterbug)나 텀블벅 커스텀 ESLint 플러그인  [eslint-plugin-tumblbug](https://github.com/tumblbug/eslint-plugin-tumblbug) 역시 사이드 프로젝트에서 탄생했습니다. 한 엔지니어는 주말 사이 재미로 텀블벅 프로젝트 데이터를 가져오는 REST API를 만들었는데, 지금은 그 결과물이 네이버 서비스와의 연동에 쓰이고 있습니다. 
 
 ### 텀블벅을 만듭니다
 
+  - [블로그](https://medium.com/building-tumblbug/archive)
   - [페이스북](https://facebook.com/building.tumblbug)
   - [트위터](https://twitter.com/tumblbug_team)
-  - [블로그](https://medium.com/building-tumblbug)
 
 ----
 
